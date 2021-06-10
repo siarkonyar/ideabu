@@ -1,0 +1,158 @@
+@media (max-width:1600px) {
+    #send-idea{
+
+    }
+
+    #send-idea-text{
+
+    }
+}
+
+@media (max-width:1300px) {
+
+    #send-idea{
+
+    }
+
+    #send-idea-text{
+
+    }
+}
+
+@media (max-width:992px) {
+    #send-idea{
+        text-align: center;
+    }
+
+    #send-idea-text{
+        margin-top: 30px;
+        padding-top: 36px !important;
+        padding-bottom: 53px !important;
+    }
+
+    .send-idea-padding{
+        padding-top: 173px !important;
+    }
+
+    .unlem{
+        position: relative;
+        display: none;
+    }
+}
+
+@media (max-width:768px) {
+
+    #send-idea-text{
+        margin-left: 15px;
+        padding-top: 36px !important;
+        padding-bottom: 53px !important;
+    }
+    .fs-91{
+        font-size: 50px !important;
+    }
+
+    .fs-60{
+        font-size: 35px !important;
+    }
+}
+
+@media (max-width:576px) {
+
+    #send-idea-text{
+        padding-top: 36px !important;
+        padding-bottom: 53px !important;
+    }
+
+    .send-idea-buttons{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .send-idea-text-1{
+        font-size: 25px; 
+        margin-bottom: 30px !important;
+    }
+    .send-idea-text-2{
+        font-size: 25px;
+        margin-bottom: 15px !important;
+    }
+}
+
+@media (min-width:992px) {
+    #send-idea{
+        background-image: url(/assets/img/backgrounds/send-idea-background.png) !important;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position-x: 15%;
+        text-align: right;
+    }
+
+    #send-idea-text{
+        margin-right: 200px;
+    }
+}
+
+#send-idea{
+
+}
+
+#send-idea-text{
+    padding-top: 156px;
+    padding-bottom: 133px;
+    text-align: center;
+}
+
+.fs-91{
+    font-size: 91px;
+}
+
+.fs-60{
+    font-size: 60px;
+}
+
+.send-idea-buttons{
+    display: flex;
+    justify-content: center;
+}
+
+.send-idea-button-1{
+    margin-right: 10px;
+    margin-bottom: 10px;
+    text-align: center;
+    width: 170px; 
+    padding-top: 14px;
+    padding-bottom: 14px;
+    font-weight: 700; 
+    font-family: 'Helvetica Con Black';
+}
+.send-idea-button-2{
+    margin-right: 10px;
+    margin-bottom: 10px; 
+    text-align: center;
+    width: 170px;
+    padding-top: 14px;
+    padding-bottom: 14px;
+    font-weight: 700; 
+    font-family: 'Helvetica Con Black';
+    background-color: #fdd1a0;
+}
+
+.send-idea-text-1{
+    font-size: 25px; 
+    margin-bottom: 90px;
+}
+.send-idea-text-2{
+    font-size: 25px;
+    margin-bottom: 30px;
+}
+
+.send-idea-padding{
+    padding-top: 135.96px;
+}
+
+.unlem{
+    position: absolute;
+    top: 30px;
+    right: -70px;
+}

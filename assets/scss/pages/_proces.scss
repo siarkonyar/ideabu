@@ -1,0 +1,22 @@
+
+
+.proces-inner{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+@media (max-width:768px) {
+    .proces-inner{
+        display: flex;
+        flex-direction: column;
+    }  
+
+    .proces-item{
+        margin-bottom: 100px;
+    }
+
+    .proces-img{
+        transform: rotate(90deg);
+    }
+}
